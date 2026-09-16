@@ -19,7 +19,7 @@
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 1fr;
-  padding: 60px var(--gap-base) var(--gap-base);
+  padding: 75px var(--gap-base) var(--gap-base);
 }
 
 .title-decor__header {
@@ -102,7 +102,7 @@
   grid-column: 1 / -1;
   align-self: end;
   font-weight: bold;
-  /* margin-bottom: 80px; */
+  margin-bottom: 80px;
 }
 
 .decorated-zone {
@@ -141,7 +141,7 @@
 .content {
   display: flex;
   flex-direction: column;
-  gap: var(--gap-large);
+  gap: 50px;
   padding: var(--gap-large) var(--gap-small);
   background-color: var(--bg-color);
 }
