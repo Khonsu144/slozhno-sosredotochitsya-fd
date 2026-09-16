@@ -22,6 +22,11 @@
   padding: 60px var(--gap-base) var(--gap-base);
 }
 
+.title-decor__header {
+  background-color: var(--accent-color);
+  color: var(--text-on-accent);
+}
+
 .header__rec {
   display: none;
   position: absolute;
@@ -130,6 +135,7 @@
 .title-decor {
   background-color: var(--accent-color);
   color: var(--text-on-accent);
+  line-height: 1;
 }
 
 .content {
