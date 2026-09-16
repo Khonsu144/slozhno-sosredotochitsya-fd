@@ -19,7 +19,7 @@
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 1fr;
-  gap: var(--gap-base);
+  /* gap: var(--gap-base); */
   padding: 60px var(--gap-base) var(--gap-base);
 }
 
@@ -92,11 +92,13 @@
   line-height: 1;
   color: var(--title-color);
   text-shadow: 4px 4px 0 var(--accent-color);
+  margin-bottom: 114px;
 }
 
 .header__description {
   grid-column: 1 / -1;
   align-self: end;
+  font-weight: bold;
 }
 
 .decorated-zone {
@@ -213,7 +215,7 @@
 
 .gallery__grid {
   display: grid;
-  gap: var(--gap-base);
+  gap: var(--gap-small);
   grid-template-columns: 1fr;
 }
 
@@ -228,7 +230,7 @@
   height: 100vh;
   display: grid;
   place-items: center;
-  padding: var(--gap-base);
+  /* padding: var(--gap-base); */
   background-color: var(--bg-color);
 }
 
