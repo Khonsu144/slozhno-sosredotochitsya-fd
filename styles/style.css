@@ -48,7 +48,7 @@
 .header__theme-menu {
   justify-self: end;
   align-self: start;
-  margin-top: 39px;
+  margin-top: 20px;
 }
 
 .header__theme-menu-list {
@@ -129,7 +129,6 @@
 .title-decor {
   background-color: var(--accent-color);
   color: var(--text-on-accent);
-  line-height: 1;
 }
 
 .content {
@@ -137,7 +136,7 @@
   flex-direction: column;
   gap: var(--gap-large);
   padding: var(--gap-large) var(--gap-small);
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
 }
 
 .content-section {
@@ -228,7 +227,7 @@
   display: grid;
   place-items: center;
   padding: var(--gap-base);
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
 }
 
 .footer__title {
