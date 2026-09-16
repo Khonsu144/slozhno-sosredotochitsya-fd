@@ -15,6 +15,7 @@
 
 .header {
   min-height: 668px;
+  height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 1fr;
@@ -224,6 +225,7 @@
 
 .footer {
   min-height: 668px;
+  height: 100vh;
   display: grid;
   place-items: center;
   padding: var(--gap-base);
