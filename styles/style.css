@@ -48,7 +48,7 @@
 .header__theme-menu {
   justify-self: end;
   align-self: start;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .header__theme-menu-list {
@@ -97,6 +97,7 @@
   grid-column: 1 / -1;
   align-self: end;
   font-weight: bold;
+  margin-bottom: 80px;
 }
 
 .decorated-zone {
@@ -234,6 +235,7 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 1;
   color: var(--title-color);
+  text-shadow: 4px 4px 0 var(--accent-color);
 }
 
 @media (min-width: 768px) {
