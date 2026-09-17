@@ -1,1 +1,0 @@
-https://github.com/Khonsu144/slozhno-sosredotochitsya-fd.git
