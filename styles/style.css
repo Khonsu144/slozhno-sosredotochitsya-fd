@@ -142,7 +142,6 @@
   gap: 50px;
   padding: var(--gap-large) var(--gap-small);
   background-color: var(--bg-color);
-  min-height: 5150px;
 }
 
 .content-section {
