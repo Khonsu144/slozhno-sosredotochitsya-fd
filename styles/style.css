@@ -153,6 +153,7 @@
   font-size: var(--font-size-base);
   font-weight: bold;
   max-width: 280px;
+  color: var(--accent-color)
 }
 
 .content-section__content {
