@@ -153,7 +153,10 @@
   font-size: var(--font-size-base);
   font-weight: bold;
   max-width: 280px;
-  color: var(--accent-color)
+}
+
+:root.theme-dark .content-section__title {
+  color: var(--accent-color);
 }
 
 .content-section__content {
@@ -336,6 +339,13 @@
 @media (min-width: 1024px) {
   .header__theme-menu-list {
     flex-direction: row;
+  }
+
+  .content-section_type_what .content-section__list {
+    grid-column: 1 / -1;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--gap-base);
+    display: grid;
   }
 
   .gallery__grid {
