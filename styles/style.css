@@ -17,10 +17,9 @@
   min-height: 668px;
   height: 100vh;
   display: grid;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: 1fr min-content 1fr auto;
   grid-template-columns: 1fr;
-  /* padding: 75px var(--gap-base) var(--gap-base); */
-  padding: var(--gap-base);
+  padding: var(--gap-small);
 }
 
 .title-decor__header {
@@ -64,12 +63,12 @@
 }
 
 .header__theme-menu-button {
-  padding: 4px 13px;
+  padding: 1px 12px;
   border: 1px solid transparent;
   background: transparent;
   text-transform: lowercase;
   cursor: pointer;
-  color: var(--button-color);   /* ← ИЗМЕНЕНО */
+  color: var(--button-color);
 }
 
 .header__theme-menu-button:hover {
@@ -94,16 +93,16 @@
   grid-column: 1 / -1;
   align-self: center;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  line-height: 1;
+  line-height: 83%;
   color: var(--title-color);
   text-shadow: 4px 4px 0 var(--accent-color);
 }
 
 .header__description {
-  grid-column: 1 / -1;
-  align-self: end;
   font-weight: bold;
-  /* margin-bottom: 80px; */
+  justify-self: end;
+  align-self: center;
+  width: 100%;
 }
 
 .decorated-zone {
@@ -120,15 +119,15 @@
 }
 
 .decorated-zone::before {
-  top: var(--gap-base);
-  right: var(--gap-base);
+  top: var(--gap-small);
+  right: var(--gap-small);
   border-left: none;
   border-bottom: none;
 }
 
 .decorated-zone::after {
-  bottom: var(--gap-base);
-  left: var(--gap-base);
+  bottom: var(--gap-small);
+  left: var(--gap-small);
   border-right: none;
   border-top: none;
 }
