@@ -45,7 +45,7 @@
   height: 9px;
   margin-inline-start: 10px;
   border-radius: 50%;
-  /* background-color: var(--accent-color); */
+  background-color: var(--accent-color);
   box-shadow: 0 0 4px 2px var(--accent-color);
   vertical-align: middle;
 }
@@ -53,7 +53,6 @@
 .header__theme-menu {
   justify-self: end;
   align-self: start;
-  /* margin-top: 15px; */
 }
 
 .header__theme-menu-list {
@@ -68,6 +67,7 @@
   background: transparent;
   text-transform: lowercase;
   cursor: pointer;
+  color: var(--button-color);   /* ← ИЗМЕНЕНО */
 }
 
 .header__theme-menu-button:hover {
@@ -80,11 +80,11 @@
 
 .header__theme-menu-button:focus-visible {
   outline: none;
-  border-bottom: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--button-color);
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid black;
+  border: 1px solid var(--button-border-color);
   pointer-events: none;
 }
 
@@ -114,7 +114,7 @@
   position: absolute;
   width: 25px;
   height: 25px;
-  border: 1px solid var(--accent-color);
+  border: 1px solid var(--border-color);
 }
 
 .decorated-zone::before {
@@ -141,7 +141,6 @@
   flex-direction: column;
   gap: 50px;
   padding: var(--gap-large) var(--gap-small);
-  background-color: var(--bg-color);
 }
 
 .content-section {
@@ -178,7 +177,7 @@
 }
 
 .card__title {
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .card__title_type_heading {
@@ -237,7 +236,6 @@
   display: grid;
   place-items: center;
   padding: var(--gap-base);
-  background-color: var(--bg-color);
 }
 
 .footer__title {
@@ -300,7 +298,7 @@
     gap: var(--gap-base);
   }
 
-   .gallery__grid {
+  .gallery__grid {
     grid-template-columns: 229fr 230fr 229fr;
     grid-template-rows: 192fr 250fr 318fr;
     gap: var(--gap-base);

@@ -9,6 +9,9 @@
   --accent-color: #ff8dcb;
   --title-color: #ffc2e2;
   --text-on-accent: #353430;
+  --button-color: #353430;
+  --button-border-color: #353430;
+  --border-color: #353430;              /* ← НОВАЯ */
   --button-hover-border: rgba(53, 52, 48, 0.4);
 }
 
@@ -24,6 +27,9 @@
     --accent-color: #ff8dcb;
     --title-color: #ffc2e2;
     --text-on-accent: #353430;
+    --button-color: #353430;
+    --button-border-color: #353430;
+    --border-color: #353430;
     --button-hover-border: rgba(53, 52, 48, 0.4);
   }
 
