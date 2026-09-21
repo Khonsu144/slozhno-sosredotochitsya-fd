@@ -180,14 +180,17 @@
 
 .card__title {
   font-weight: bold;
+  font-size: 18px;
 }
 
 .card__title-section {
   font-weight: normal;
+  font-size: 18px;
 }
 
 .card__title_type_heading {
   font-weight: bold;
+  font-size: 18px;
 }
 
 .card__text {
