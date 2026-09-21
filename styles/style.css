@@ -182,6 +182,10 @@
   font-weight: bold;
 }
 
+.card__title-section {
+  font-weight: normal;
+}
+
 .card__title_type_heading {
   font-weight: bold;
 }
@@ -235,9 +239,9 @@
 .footer {
   min-height: 668px;
   height: 100vh;
-  display: grid;
+  display: flex;
   place-items: center;
-  padding: var(--gap-base);
+  padding: var(--gap-small);
 }
 
 .footer__title {
