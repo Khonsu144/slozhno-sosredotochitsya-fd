@@ -19,7 +19,8 @@
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 1fr;
-  padding: 75px var(--gap-base) var(--gap-base);
+  /* padding: 75px var(--gap-base) var(--gap-base); */
+  padding: var(--gap-base);
 }
 
 .title-decor__header {
@@ -53,6 +54,7 @@
 .header__theme-menu {
   justify-self: end;
   align-self: start;
+  margin-top: 55px;
 }
 
 .header__theme-menu-list {
@@ -151,6 +153,7 @@
 .content-section__title {
   font-size: var(--font-size-base);
   font-weight: bold;
+  color: var(--section-title-color);
   /* max-width: 280px; */
 }
 

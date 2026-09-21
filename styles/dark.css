@@ -12,8 +12,9 @@
   --title-color: #db00ff;
   --text-on-accent: #000028;
   --button-color: #ff0070;
+  --section-title-color: #ff0070;
   --button-border-color: #ff0070;
-  --border-color: #ff0070;              /* ← НОВАЯ */
+  --border-color: #ff0070;
   --button-hover-border: rgba(255, 0, 112, 0.4);
 }
 
@@ -25,4 +26,9 @@
   :root:not(.theme-light) .header__rec {
     display: inline-block;
   }
+  @media (prefers-color-scheme: dark) {
+  :root:not(.theme-light) {
+    --section-title-color: #ff0070;
+  }
+}
 }
