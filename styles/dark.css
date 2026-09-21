@@ -20,3 +20,9 @@
 :root.theme-dark .header__rec {
   display: inline-block;
 }
+
+@media (prefers-color-scheme: dark) {
+  :root:not(.theme-light) .header__rec {
+    display: inline-block;
+  }
+}

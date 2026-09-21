@@ -101,7 +101,7 @@
   grid-column: 1 / -1;
   align-self: end;
   font-weight: bold;
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
 }
 
 .decorated-zone {
@@ -151,7 +151,7 @@
 .content-section__title {
   font-size: var(--font-size-base);
   font-weight: bold;
-  max-width: 280px;
+  /* max-width: 280px; */
 }
 
 :root.theme-dark .content-section__title {
