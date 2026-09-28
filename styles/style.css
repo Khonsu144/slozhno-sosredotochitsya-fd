@@ -286,8 +286,7 @@
 
   .content {
     padding: var(--gap-base);
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: var(--gap-large);
     gap: 80px;
   }
 
