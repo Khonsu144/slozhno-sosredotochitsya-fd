@@ -317,6 +317,7 @@
     grid-template-columns: 229fr 230fr 229fr;
     grid-template-rows: 192fr 250fr 318fr;
     gap: var(--gap-base);
+    height: 780px;
   }
 
   .gallery__image:nth-child(1) {
@@ -345,7 +346,7 @@
   }
 
   .footer {
-    padding: var(--gap-base);
+    padding: var(--gap-large) var(--gap-base);
   }
 
   .footer__title {
