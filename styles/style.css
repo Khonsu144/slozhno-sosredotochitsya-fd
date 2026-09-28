@@ -286,6 +286,7 @@
   .content {
     padding: var(--gap-base);
     padding-top: 60px;
+    padding-bottom: 60px;
     gap: 80px;
   }
 
@@ -346,7 +347,7 @@
   }
 
   .footer {
-    padding: var(--gap-large) var(--gap-base);
+    padding: var(--gap-base);
   }
 
   .footer__title {
