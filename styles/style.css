@@ -286,7 +286,7 @@
 
   .content {
     padding: var(--gap-base);
-    padding-top: 60px;
+    padding-top: 50px;
     padding-bottom: 50px;
     gap: 80px;
   }
@@ -359,6 +359,11 @@
 
   .header__theme-menu-list {
     flex-direction: row;
+  }
+  
+  .content {
+    padding-bottom: 60px;
+    padding-top: 55px;
   }
 
   .content-section_type_what .content-section__list {
