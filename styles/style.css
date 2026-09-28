@@ -284,9 +284,7 @@
   }
 
   .content {
-    padding: var(--gap-base);
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px var(--gap-base);
     gap: 80px;
   }
 
@@ -316,9 +314,8 @@
 
   .gallery__grid {
     grid-template-columns: 229fr 230fr 229fr;
-    grid-template-rows: 192fr 250fr 318fr;
+    grid-template-rows: auto auto auto;
     gap: var(--gap-base);
-    height: 780px;
   }
 
   .gallery__image:nth-child(1) {
@@ -371,6 +368,6 @@
 
   .gallery__grid {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 0.85fr 1fr 1.4fr;
+    grid-template-rows: auto auto auto;
   }
 }
